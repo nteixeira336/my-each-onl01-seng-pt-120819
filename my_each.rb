@@ -4,4 +4,5 @@ def my_each (arguement)
     yield arguement[i] 
     i=i +1 
   end 
+  arguement 
 end
