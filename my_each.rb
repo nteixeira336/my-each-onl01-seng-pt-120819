@@ -1,3 +1,6 @@
 def my_each (arguement)
-  while 
+  i=0 
+  while i<arguement.length 
+    yield arguement[i] 
+  end 
 end
